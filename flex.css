@@ -1,0 +1,24 @@
+.cnt {
+  max-width: 1450px;
+  min-width: 700px;
+  outline: 1px solid black;
+  display: flex; }
+
+.sidebar {
+  background-color: aqua;
+  margin-right: 10px;
+  flex-basis: 100%;
+  max-width: 350px; }
+
+.catalog {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .catalog.item {
+    height: 300px;
+    width: 275px;
+    outline: 1px solid blue;
+    margin-bottom: 10px; }
+
+/*# sourceMappingURL=flex.css.map */
